@@ -1,8 +1,10 @@
 package com.example.tulaa.model;
 
-import java.sql.Date;
+import java.util.Date;
 
 import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity
 @Table(name="person")
@@ -19,6 +21,7 @@ public class Person{
     private String lastName;
 
     @Column(name = "date_of_birth")
+    @JsonFormat(pattern = "dd/MM/yyyy")
     private Date dob;
 
     @Column(name = "gender")
