@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TulaaApplication<tulaa>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.tulaa.TulaaApplication",
+            "projectName": "tulaa",
+            "args": ""
+        }
+    ]
+}
